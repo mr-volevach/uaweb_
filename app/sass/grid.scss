@@ -1,0 +1,62 @@
+.row, 
+.column,
+.container {
+	box-sizing: border-box; 
+}
+.container {
+  	width: 100%;
+  	max-width: 940px;
+  	margin: 0 auto;
+}
+.column {
+	float: left; 
+}
+.span_1 {
+ 	width: (100% / 12); 
+}
+.span_2 {
+	width: (100% / 6); 
+}
+.span_3 {
+  	width: (100% / 4); 
+}
+.span_4 {
+  	width: (100% / 3); 
+}
+.span_5 {
+  	width: ( 100%/ 3 ) + ( 100% / 12 ); 
+}
+.span_6 {
+  	width: 50%; 
+}
+.span_7 {
+  	width: 50% + ( 100% / 12 );  
+}
+.span_8 {
+  	width: 50% + ( 100% / 6 ); 
+}
+.span_9 {
+  	width: 50% + ( 100% / 4 ) 
+}
+.span_10 {
+  	width: 100% - ( 100% / 6 ) 
+}
+.span_11 {
+  	width: 100% - ( 100% / 12 ) 
+ }
+.span_12 {
+  	width: 100%; 
+}
+.container:before, 
+.container:after,
+.row:before, 
+.row:after,
+.clear:before, 
+.clear:after {
+  	content: " ";
+  	display: table; 
+}
+.row:after, 
+.clear:after {
+  	clear: both; 
+}
